@@ -1,0 +1,83 @@
+body {
+    background-color: #000;
+}
+
+img {
+    display: block;
+    height: auto;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+/* Escenario */
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#escenario, th, td {
+    border: 1px solid #fff;
+    color: #fff !important;
+    text-align: center;
+}
+
+td.libre {
+    background-color: #60bd60;
+}
+
+td.reservada {
+    background-color: #8a7606;
+}
+
+td.vendida {
+    background-color: #c91b08;
+}
+
+#iconoEscenario {
+    background-color: #ed9b4a;
+    color: #000;
+    padding: 20px;
+}
+
+th {
+    background-color: #031459;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;    
+}
+    
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Formulario */
+
+#formulario {
+    background-color: #031459;
+    border: 1px #fff solid;
+    color: white;    
+}
+
+form {
+    padding: 10px;
+    display: inline-block;
+}
+
+#arregloDatos {
+    display: none;
+}
+
+#botones {
+    text-align: center;
+}
+
+#enviar, #borrar {
+    background-color: #ed9b4a;
+    border: 1px #fff solid;
+    color: #000;
+    font-weight: bold;
+    padding: 10px;
+}
